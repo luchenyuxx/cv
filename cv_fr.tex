@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{fontspec}
+
+\name{Chenyu LU} % Your name
+%\address{15 Bis Rue Amélie \\ 75007, Paris, France} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{+33~6~50~78~29~43 \\ luchenyuxx@gmail.com} % Your phone number and email
+\address{LinkedIn: https://fr.linkedin.com/in/luchenyu}
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experiences}
+
+\begin{rSubsection}{Density Technologies\footnote{Density Technologies développe des logiciels métiers dédiés aux professionnels de la gestion d’actifs. Son progiciel NX Density se base sur Java.}}{Sep 2014 - en cours}{Ingénieur Informatique R\&D}{Paris, France}
+\item Moved application build tool from Ant to SBT to support Scala language. Improved company's development environment by developing a Eclipse SBT plugin and evolving the continuous integration tool (Hudson). Greatly reduced the compilation time of the product.
+\item Migrated product's interface layout data from XML storage to database storage, added lazy loading feature, which halfs the launching time of the product and reduces memory consumption by 100M+.
+\item Developed new loading mechanism from database using queryable text data type (JSON in PostgreSQL, XML in SQLServer) and Scala macros, which resolved a blocking performance issue for a client.
+\item Integrated the framework with an internationalization library (gettext). Allowing the application to have Chinese and French version and easily have more.
+\end{rSubsection}
+
+\begin{rSubsection}{Density Technologies}{Mar-Sep 2014}{Stagiaire Informatique}{Paris, France}
+\item Developed a prototype of web interface for company's desktop product. Using the technics of Java, SQL, JSON, Play Framework, Scala, JavaScript, jQuery, Spray, Akka.
+\end{rSubsection}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+ 
+\begin{rSection}{Formations}
+
+{\bf Conservatoire National des Arts et Métiers, Paris} \hfill {2013-2014} \\ 
+Master international de sciences et technologies, spécialité architecture et intégration des systèmes et du logiciel\\
+Graduation project: ``Migration of a large desktop application to a web Interface''\\
+Mark of defense: 17/20 with comment ``very good!''\medskip\\
+{\bf l’Université du Sud-Est, Nanjing, Chine} \hfill {2008-2012}\\
+Licence technologies de l’information et de la communication.
+GPA: 4.0
+
+\end{rSection}
+
+% ----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Competences}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Langages de programmation & Scala, Java, Haskell, SQL, JavaScript \\
+Protocoles \& APIs & PlayFromework, Akka, XML, JSON, REST \\
+Bases de données & MySQL, PostgreSQL, SQLServer, H2 \\
+Outils & Git, SBT, SVN, Hudson, Eclipse, IntelliJIDEA \\
+Langues & Anglais: Professional Working Proficiency \\
+        & Français: Limited Working Proficiency \\
+        & Chinois: Native Proficiency 
+\end{tabular}
+
+\end{rSection}
+
+% --------------------------------------------------------------------------------
+% AWARDS
+% -------------------------------------------------------------------------------------
+
+\begin{rSection}{Prix}
+
+{\bf Vainqueur du mérite de la concurrence interdisciplinaire en modélisation} \hfill {Mar-2011}\\
+Issuer: The Consortium for Mathematics and Its Applications, USA
+  
+\end{rSection}
+
+\end{document}
+B
