@@ -1,23 +1,5 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV
-% LaTeX Template
-% Version 2.0 (8/5/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Trey Hunner (http://www.treyhunner.com/)
-%
-% Important note:
-% This template requires the resume.cls file to be in the same directory as the
-% .tex file. The resume.cls file provides the resume style used for structuring the
-% document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%        PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
 \documentclass{resume} % Use the custom resume.cls style
@@ -35,61 +17,82 @@
 \address{\href{https://github.com/luchenyuxx}{GitHub: https://github.com/luchenyuxx}}
 \address{+33~6~50~78~29~43 \\ \href{mailto:luchenyuxx@gmail.com}{luchenyuxx@gmail.com}} % Your phone number and email
 \begin{document}
+
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
+%        WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Ledger}{Apr 2018 - Present}{Backend Developer}{Paris, France}
-\item Developing a blockchain explorer to serve requests from frontend apps, with good level of abstraction to support different coin types.
-\end{rSubsection}
+  \begin{rSubsection}{Ledger}{Apr 2018 - Present}{Backend Developer}{Paris, France}
+  \item Developed a performant, scalable blockchain explorer from A to Z, using
+    functional programming concepts. Designed the code architecture and
+    infrastructure. Tuned the performance, setup the monitoring system and CI
+    integration.
+  \item Hold internal technique meetup.
+  \end{rSubsection}
 
-\begin{rSubsection}{Density Technologies\footnote{Density Tech is a software vendor developing business software solutions for the financial industry, with a Java based product.}}{Sep 2014 - Apr 2018}{Software Engineer R\&D}{Paris, France}
-\item Moved application build tool from Ant to SBT to support Scala language. Improved company's development environment by developing an Eclipse SBT plugin and evolving the continuous integration tool (Hudson). Greatly reduced the compile time of the product.
-\item Migrated product's interface layout data from XML storage to database storage, added lazy loading feature, which halves the launching time of the product and reduces memory consumption by 100M+.
-\item Developed new loading mechanism from database using queryable text data type (JSONB in PostgreSQL, XML in SQLServer) and Scala macros, which resolved a blocking performance issue for a client.
-\item Integrated the framework with an internationalization library (gettext), allowing the application to have Chinese and French versions and easily add more.
-\end{rSubsection}
+  \begin{rSubsection}{Density Technologies\footnote{Density Tech is a software
+        vendor developing business software solutions for the financial industry,
+        with a Java based product.}}{Sep 2014 - Apr 2018}{Software Engineer
+      R\&D}{Paris, France}
+  \item Moved application build tool from Ant to SBT to support Scala language.
+    Improved company's development environment by developing an Eclipse SBT
+    plugin and evolving the continuous integration tool (Hudson). Greatly
+    reduced the compile time of the product.
+  \item Migrated product's interface layout data from XML storage to database
+    storage, added lazy loading feature, which halves the launching time of the
+    product and reduces memory consumption by 100M+.
+  \item Developed new loading mechanism from database using queryable text data
+    type (JSONB in PostgreSQL, XML in SQLServer) and Scala macros, which
+    resolved a blocking performance issue for a client.
+  \item Integrated the framework with an internationalization library (gettext),
+    allowing the application to have Chinese and French versions and easily add
+    more.
+  \end{rSubsection}
 
-\begin{rSubsection}{Density Technologies}{Mar-Sep 2014}{Intern}{Paris, France}
-\item Developed a prototype web interface for company's desktop product, using the technics of Java, SQL, JSON, Play Framework, Scala, JavaScript, jQuery, Spray and Akka.
-\end{rSubsection}
+  \begin{rSubsection}{Density Technologies}{Mar-Sep 2014}{Intern}{Paris, France}
+  \item Developed a prototype web interface for company's desktop product, using
+    the technics of Java, SQL, JSON, Play Framework, Scala, JavaScript, jQuery,
+    Spray and Akka.
+  \end{rSubsection}
 
 \end{rSection}
 
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%         EDUCATION SECTION
 %----------------------------------------------------------------------------------------
- 
+
 \begin{rSection}{Education}
 
-{\bf Conservatoire National des Arts et Métiers, Paris} \hfill {2013-2014} \\ 
-Master of Science and Technology, specialized in Architecture and Integration of System and Software\\
-Graduation project: ``Migration of a large desktop application to a web interface''\\
-Mark of defense: 17/20 with comment ``very good!''\medskip\\
-{\bf Southeast University, Nanjing, China} \hfill {2008-2012}\\
-Bachelor of Engineering, specialized in Electrical, Electronic and Communications Engineering Technology\\
-GPA: 4.0
+  {\bf Conservatoire National des Arts et Métiers, Paris} \hfill {2013-2014} \\
+  Master of Science and Technology, specialized in Architecture and Integration
+  of System and Software\\
+  Graduation project: ``Migration of a large desktop application to a web
+  interface''\\
+  Mark of defense: 17/20 with comment ``very good!''\medskip\\
+  {\bf Southeast University, Nanjing, China} \hfill {2008-2012}\\
+  Bachelor of Engineering, specialized in Electrical, Electronic and
+  Communications Engineering Technology\\
+  GPA: 4.0
 
 \end{rSection}
 
 % ----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
+%        TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Skills}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming Languages & Scala, Java, Haskell, Rust, SQL, JavaScript \\
-Protocols \& APIs & PlayFromework, Akka, XML, JSON, REST \\
-Databases & MySQL, PostgreSQL, SQLServer, H2 \\
-Tools & Git, SBT, SVN, Hudson, Eclipse, IntelliJ IDEA \\
-Languages & English: Professional Working Proficiency \\
-          & French: Limited Working Proficiency \\
-          & Mandarin Chinese: Native Proficiency 
-\end{tabular}
+  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Programming Languages & Scala, Java, Haskell, Rust, JavaScript \\
+    Libraries & Cats, Akka, Fs2Stream \\
+    Databases & Cassandra, PostgreSQL, Sqlite \\
+    Languages & English: Professional Working Proficiency \\
+    & French: Limited Working Proficiency \\
+    & Mandarin Chinese: Native Proficiency
+  \end{tabular}
 
 \end{rSection}
 
@@ -99,9 +102,10 @@ Languages & English: Professional Working Proficiency \\
 
 \begin{rSection}{Awards}
 
-{\bf Meritorious winner of 2011 Interdisciplinary Contest in Modeling} \hfill {Mar 2011}\\
-Issuer: The Consortium for Mathematics and Its Applications, USA
-  
+  {\bf Meritorious winner of 2011 Interdisciplinary Contest in Modeling} \hfill
+  {Mar 2011}\\
+  Issuer: The Consortium for Mathematics and Its Applications, USA
+
 \end{rSection}
 
 \end{document}
